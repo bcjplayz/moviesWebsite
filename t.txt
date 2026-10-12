@@ -3,4 +3,9 @@ info for the html website
 the top nav needs to have the title, nav links and the user account thing,
 the class should be top-nav, pls send the class names of new things sent over pls and thank you
 
-underneath the header should be a a hero that will be the search area, the backround will be images of popular movies.
+underneath the header should be a a hero that will be the search area, the background will be images of popular movies.
+
+Classes:
+
+- top-nav
+- hero (text in middle of screen like big big)
