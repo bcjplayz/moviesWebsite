@@ -11,11 +11,9 @@ Classes:
 - hero (text in middle of screen like big big)
 - under-hero
 
-future features:
+TO DO LIST [priority]:
 
-add more to the top nav, an account user thing, pls check font awaesome for a cool logo for it,
-then pls add navigation links, like tv shows, movies, etc.
-
-pls reduce .under-hero title have less have more paragraph tag and make it more broad pls to reach out to wider audiences
-
-make the input be autofocus
+- add more to the top nav, an account user thing, pls check font awaesome for a cool logo for it
+- pls reduce .under-hero title have less have more paragraph tag and make it more broad pls to reach out to wider audiences
+- Get API functionality
+- work on media queries + js functionality
