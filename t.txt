@@ -18,4 +18,4 @@ then pls add navigation links, like tv shows, movies, etc.
 
 pls reduce .under-hero title have less have more paragraph tag and make it more broad pls to reach out to wider audiences
 
-inclose the input in a label, the label should have the input and a span saying the text content
+make the input be autofocus
