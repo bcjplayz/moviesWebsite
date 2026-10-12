@@ -10,6 +10,8 @@
   --background: rgb(83, 82, 82);
   --highlight: rgb(24, 23, 23);
   --col: whitesmoke;
+  --muted: rgb(201, 197, 197);
+  --muted-highlight: rgb(0, 0, 0);
   color: var(--col);
 }
 
@@ -23,6 +25,7 @@
 body {
   background: var(--highlight);
   display: flex;
+  justify-content: center;
   flex-direction: column;
   gap: 1rem;
 }
@@ -35,9 +38,31 @@ body {
   background: var(--background);
 
   border-radius: 0 0 1rem 1rem;
-  box-shadow: -1px 13px 22px -1px rgba(23, 227, 202, 0.59);
+  box-shadow: 7px 7px 31px -5px rgba(102, 3, 79, 0.88);
+  -webkit-box-shadow: 7px 7px 31px -5px rgba(102, 3, 79, 0.88);
+  -moz-box-shadow: 7px 7px 31px -5px rgba(102, 3, 79, 0.88);
+  /* box-shadow: -1px 13px 22px -1px rgba(23, 227, 202, 0.59);
   -webkit-box-shadow: -1px 13px 22px -1px rgba(23, 227, 202, 0.59);
-  -moz-box-shadow: -1px 13px 22px -1px rgba(23, 227, 202, 0.59);
+  -moz-box-shadow: -1px 13px 22px -1px rgba(23, 227, 202, 0.59); */
+}
+
+.top-nav div {
+  display: flex;
+  width: max-content;
+  gap: 10px;
+  justify-content: space-evenly;
+}
+
+.top-nav a {
+  color: var(--muted);
+  text-decoration: none;
+  transition: all 0.3s ease-in;
+}
+
+.top-nav a:hover {
+  border-bottom: solid 1px rgb(153, 4, 158);
+  color: var(--muted-highlight);
+  transform: translateY(-2px);
 }
 
 .top-nav div {
@@ -60,4 +85,64 @@ body {
     url("https://gizmodo.com/app/uploads/2025/12/Avengers-Endgame-1280x853.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.hero label {
+  position: relative;
+}
+
+.hero label span {
+  position: absolute;
+}
+
+.hero label input {
+  background: var(--muted);
+  border: none;
+  border-radius: 1em;
+  width: 45vw;
+  height: 30px;
+  transition: all 0.3s ease;
+}
+
+.hero span {
+  background: var(--muted);
+  position: absolute;
+  top: 1px;
+  left: 10px;
+  transition: all 0.3s ease;
+}
+
+.hero label:has(input:focus) > span {
+  transform: translate(10px, -20px);
+}
+
+.under-hero {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  width: 80%;
+  margin: auto;
+  font-size: smaller;
+  border-left: solid 2px rgb(114, 5, 187);
+  padding: 2px;
+  transition: all 0.2s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+  will-change: transform;
+}
+
+.under-hero:hover {
+  box-shadow: 7px 7px 31px -5px rgba(207, 7, 162, 0.88);
+  -webkit-box-shadow: 7px 7px 31px -5px rgba(207, 7, 162, 0.88);
+  -moz-box-shadow: 7px 7px 31px -5px rgba(207, 7, 162, 0.88);
+  transform: translateY(-2px) scale(1.05);
+}
+
+main {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  row-gap: 10%;
+}
+
+main div {
+  width: 50%;
 }
