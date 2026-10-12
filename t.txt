@@ -10,3 +10,8 @@ Classes:
 - top-nav
 - hero (text in middle of screen like big big)
 - under-hero
+
+future features:
+
+add more to the top nav, an account user thing, pls check font awaesome for a cool logo for it,
+then pls add navigation links, like tv shows, movies, etc.
