@@ -1,12 +1,8 @@
-.env
-
-node_modules
-package_lock.json   
-
-.pycache
-.vs_code
-
-__pycache__
-
 *.log
 
+__pycache__
+*.txt
+.env 
+.env.local 
+
+.sample-images

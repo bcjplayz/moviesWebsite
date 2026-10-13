@@ -1,0 +1,19 @@
+info for the html website
+
+the top nav needs to have the title, nav links and the user account thing,
+the class should be top-nav, pls send the class names of new things sent over pls and thank you
+
+underneath the header should be a a hero that will be the search area, the background will be images of popular movies.
+
+Classes:
+
+- top-nav
+- hero (text in middle of screen like big big)
+- under-hero
+
+TO DO LIST [priority]:
+
+- add more to the top nav, an account user thing, pls check font awaesome for a cool logo for it
+- pls reduce .under-hero title have less have more paragraph tag and make it more broad pls to reach out to wider audiences
+- Get API functionality
+- work on media queries + js functionality
