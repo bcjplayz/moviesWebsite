@@ -9,4 +9,8 @@ app.secret_key = os.getenv("SECRET-KEY")
 
 @app.route("/")
 def Home():
-    return render_template("index.html", FA_LINK = os.getenv("FA-Link"))
+    return render_template("index.html", FA_LINK = os.getenv("FALink"))
+
+
+if __name__ == "__main__":
+    app.run(debug=True)
